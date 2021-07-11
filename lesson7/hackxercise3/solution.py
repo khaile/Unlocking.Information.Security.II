@@ -12,7 +12,7 @@ def encrypt(m, public_key):
 
 def decrypt(c, private_key):
     rsa_private_key = RSA.importKey(private_key)
-    return pow(c, rsa_private_key.d, rsa_private_key.p)
+    return pow(c, rsa_private_key.d, rsa_private_key.n)
 
 
 # The input from the test is an integer
