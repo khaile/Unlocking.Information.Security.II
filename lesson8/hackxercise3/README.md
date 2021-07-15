@@ -1,0 +1,1 @@
+Implement the `sql_injection` function so that it returns a username and password, which `hack` can use to make `authenticate` return True (but don't use Alice's or Bob's actual credentials, of course…).
